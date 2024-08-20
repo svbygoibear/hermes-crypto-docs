@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: custom-dracula
+theme: dracula
 footer: "https://hermes-crypto.com"
 header: <span><img src="./img/hermes-crypto-logo.svg" height="20px"/>  hermes-crypto </span>
 pagination: true
@@ -109,70 +109,55 @@ You can have a look here: [hermes-crypto](https://github.com/svbygoibear/hermes-
 
 What use will it be to just talk about what is going on under the hood and not show what we are actually working with? Time to hop on off to [hermes-crypto.com](https://www.hermes-crypto.com)
 
-![image height:200px](./img/hermes-landing-screenshot.png)
+![image height:150px](./img/hermes-landing-screenshot.png)
+
+<!-- Explain the flow of the page here. -->
 
 ---
 
-## Slide 4
+## Development Cycle
 
-| Column 1 | Column 2 |
-| -------- | -------- |
-| Item 1   | Item 2   |
-| Item 3   | Item 4   |
+This is the cycle of contribution! We've identified some shortcomings, some enhancements that can be made and now; how do we tackle this as a team?
+
+- Discuss in our morning meeting.
+- Create issues; as part of our planning meeting we can discuss who grabs which features/issues.
+- Create feature/bug branches.
+- Code, commit & PR.
+
+<!-- Explain these are procedures we should develop together and adapt as the need arises. Process should help us, not hinder us. -->
+
+---
+
+## Deployment
+
+As seen on each of the F/E and B/E applications, they are deployed separately. In the next phase of this project, a flow to try out includes:
+
+- Create a staging environment
+- Deploy after a successful Pull Request the code into staging & have an internal review phase/enhance testing.
+- After bundling a few staging items together, deploy them to production.
+
+<!-- Mention these are future plans. -->
 
 ---
 
 ![bg opacity](https://picsum.photos/800/600?image=53)
 
-## Slide 5
+## What is coming for the future?
 
-<div class="columns">
-<div>
-
-## Left
-
-- 1
-- 2
-
-</div>
-<div>
-
-## Right
-
-- 3
-- 4
-
-</div>
-</div>
+| Feature          | Description                                                                     |
+| ---------------- | ------------------------------------------------------------------------------- |
+| Vote Review      | Re-look at our current method of calculating votes; async job to be considered. |
+| Add Logging      | Investigate and add better logging                                              |
+| Improve login    | Add Oauth for better login & logout                                             |
+| Create User Dash | Add a user dash with their stats and info                                       |
 
 ---
 
-## Slide 6
+## Now what?
 
-<i class="fa-brands fa-twitter"></i> Twitter:
-<i class="fa-brands fa-mastodon"></i> Mastodon:
-<i class="fa-brands fa-linkedin"></i> LinkedIn:
-<i class="fa fa-window-maximize"></i> Blog:
-<i class="fa-brands fa-github"></i> GitHub:
+Have more questions? Now is the time!
+![bg right :500px](./img/hermes-icon-image.png)
 
 ---
 
-# <!--fit--> Large Text
-
----
-
-<!-- Needed for mermaid, can be anywhere in file except frontmatter -->
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-# Mermaid
-
-<div class="mermaid">
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-</div>
+# <!--fit--> END
