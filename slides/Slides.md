@@ -109,6 +109,8 @@ You can have a look here: [hermes-crypto](https://github.com/svbygoibear/hermes-
 
 What use will it be to just talk about what is going on under the hood and not show what we are actually working with? Time to hop on off to [hermes-crypto.com](https://www.hermes-crypto.com)
 
+![image height:200px](./img/hermes-landing-screenshot.png)
+
 ---
 
 ## Slide 4
