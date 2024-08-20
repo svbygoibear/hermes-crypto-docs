@@ -24,11 +24,11 @@ Who 'dis?
 
 Hermes (called Mercury in Roman mythology) was considered the messenger of the Olympic gods.
 
----
-
 <!-- Hermes (called Mercury in Roman mythology) was considered the messenger of the Olympic gods. He possesses the ability to influence outcomes and tip the scales in favor of those who seek his benevolence. As the god of luck, he brings both fortune and misfortune to those who dare to ask.
 
 hermes-crypto is a fun page where you can ponder if the price of your coin will go up or down; place your bets, and see if the gods will be in your favour! -->
+
+---
 
 ## What is hermes-crypto?
 
