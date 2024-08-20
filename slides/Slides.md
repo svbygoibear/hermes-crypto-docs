@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dracula
+theme: custom-dracula
 footer: "https://hermes-crypto.com"
 header: <span><img src="./img/hermes-crypto-logo.svg" height="20px"/>  hermes-crypto </span>
 pagination: true
