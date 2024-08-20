@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dracula-custom
+theme: custom-dracula
 footer: "https://hermes-crypto.com"
 header: <span><img src="./img/hermes-crypto-logo.svg" height="20px"/>  hermes-crypto </span>
 pagination: true
@@ -83,26 +83,31 @@ Time to look at what ticks under the hood!
 
 You can have a look here: [hermes-crypto-core](https://github.com/svbygoibear/hermes-crypto-core)
 
+<!-- Side-by-side demo of what currently exists in the B/E and its docs. -->
+
 ---
 
 ## 📄 Frontend Walkthrough
 
 Overall the F/E consists of a page that makes use of:
 
-- React
+- React & Vite
 - Typescript
-- Vite under the guts
 - And a few more bits and bobs...
 
 Less talk, more show > let us head off to the code again.
 
 You can have a look here: [hermes-crypto](https://github.com/svbygoibear/hermes-crypto)
 
+<!-- Side-by-side demo of what currently exists in the F/E and its docs. -->
+
 ---
 
-## Slide 3
+## 💣 Live Demo
 
-> This is a quote.
+> Don't tell me the moon is shining; show me the glint of light on broken glass.
+
+What use will it be to just talk about what is going on under the hood and not show what we are actually working with? Time to hop on off to [hermes-crypto.com](https://www.hermes-crypto.com)
 
 ---
 
