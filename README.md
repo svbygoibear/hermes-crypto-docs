@@ -1,67 +1,28 @@
-# Marp Slides Template
+<h1 align="center"> hermes-crypto-core</h1>
+<p align="center"><img alt="hermes-crypto-core" src="./slides/img/hermes-crypto-logo.svg" width="200"></p>
 
-[Use this template!](https://github.com/codebytes/marp-slides-template/generate)
+Hermes (called Mercury in Roman mythology) was considered the messenger of the Olympic gods. He possesses the ability to influence outcomes and tip the scales in favor of those who seek his benevolence. As the god of luck, he brings both fortune and misfortune to those who dare to ask.
 
-Create a Marp presentation site that can be built and published on [GitHub Pages] using this minimal template. The site features:
+`hermes-crypto` is a fun page where you can ponder if the price of your coin will go up or down; place your bets, and see if the gods will be in your favour!
 
-- Marp integration
-- A GitHub Pages / Actions workflow for build and publish ([See a preview](http://chris-ayers.com/marp-slides-template/))
-- A DevContainer/CodeSpace configuration with Marp and Markdown preview extensions
-- Chrome installation for PDF and PowerPoint slide creation on Linux
+## This REPO
 
-## Customization
+This Repo is a [MARP](https://marp.app/) slide that also doubles as an onboarding guide for your first time here at `hermes-crypto`!
 
-Feel free to customize the sites created with this template as you like!
+### Local Build & View
 
-## Getting Started
-
-1. Click "[use this template]" to create a new site.
-2. Update the content of `slides/Slides.md` with your own presentation.
-
-## Custom Themes
-
-This template includes four custom themes in the `slides/themes` folder:
-
-- custom
-- custom-default (based on the built-in default theme)
-- custom-gaia (based on the built-in gaia theme)
-- custom-uncover (based on the built-in uncover theme)
-
-To use a custom theme, edit the relevant css file and add its reference in the front matter of `Slides.md`. For example, to use `custom-default` add the following to the `Slides.md` front matter:
-
-```markdown
----
-marp: true
-theme: custom-default
----
-```
-
-For additional themes, add them to the devcontainer and follow the [Marp custom theme documentation](https://marpit.marp.app/theme-css).
-
-## Publishing on GitHub Pages
-
-1. In your GitHub repo, navigate to `Settings` > `Pages` > `Build and deployment`.
-2. Select `Source`: `GitHub Actions`.
-3. If any Actions failed, go to the `Actions` tab and click on `Re-run jobs`.
-
-## Local Build and Preview
+To view these docs, you will need the following:
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/).
 2. Install the [Marp for VS Code extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
 3. Open `slides/Slides.md` in VS Code.
 
+### Thanks
+
+Thanks needs to be given where it is due, these docs have been created using a template created by [Chris Ayers](https://github.com/codebytes) here: https://github.com/codebytes/marp-slides-template
+
+If you want to make your own, [Use this template!](https://github.com/codebytes/marp-slides-template/generate)
+
 ## Licensing and Attribution
 
 This repository is licensed under the [MIT License]. Reuse or extend the code as you wish, but include the original license. The deployment GitHub Actions workflow is based on GitHub's starter workflows.
-
-## Resources
-
-- [Use this template](https://github.com/codebytes/marp-slides-template/generate)
-
-- GitHub Pages: [https://docs.github.com/en/pages](https://docs.github.com/en/pages)
-
-- CommonMark markdown syntax: [https://commonmark.org/help/](https://commonmark.org/help/)
-
-- Marp Official Repository: [https://github.com/marp-team/marp](https://github.com/marp-team/marp)
-- Marp Official Documentation: [https://marpit.marp.app/markdown](https://marpit.marp.app/markdown)
-- Marp for VS Code Documentation: [https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
