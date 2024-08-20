@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: dracula
+theme: dracula-custom
 footer: "https://hermes-crypto.com"
 header: <span><img src="./img/hermes-crypto-logo.svg" height="20px"/>  hermes-crypto </span>
 pagination: true
@@ -73,9 +73,30 @@ We have 2 main `repos` to consider, those being:
 
 ## 📄 Backend Walkthrough
 
+To cover the basics, we are working with:
+
+- DynamoDB
+- Golang
+- Gin for routing
+
+Time to look at what ticks under the hood!
+
+You can have a look here: [hermes-crypto-core](https://github.com/svbygoibear/hermes-crypto-core)
+
 ---
 
 ## 📄 Frontend Walkthrough
+
+Overall the F/E consists of a page that makes use of:
+
+- React
+- Typescript
+- Vite under the guts
+- And a few more bits and bobs...
+
+Less talk, more show > let us head off to the code again.
+
+You can have a look here: [hermes-crypto](https://github.com/svbygoibear/hermes-crypto)
 
 ---
 
