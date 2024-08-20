@@ -10,25 +10,38 @@ pagination: true
 
 ![bg right width:500px](./img/hermes-crypto-logo.svg)
 
-First day? Lost?
+Welcome to the `hermes-crypto` onboarding chat - ask questions and stop me at any time.
 
-Lets get started on the right foot!
-
-Welcome to your onboarding chat - ask questions and stop me at any time.
+_[Simone van Buuren](https://github.com/svbygoibear)_
 
 ---
 
-<!-- Speaker Notes -->
+# Hermes?
+
+![bg right :500px](./img/hermes-icon-image.png)
+
+Who 'dis?
+
+Hermes (called Mercury in Roman mythology) was considered the messenger of the Olympic gods.
+
+---
+
+<!-- Hermes (called Mercury in Roman mythology) was considered the messenger of the Olympic gods. He possesses the ability to influence outcomes and tip the scales in favor of those who seek his benevolence. As the god of luck, he brings both fortune and misfortune to those who dare to ask.
+
+hermes-crypto is a fun page where you can ponder if the price of your coin will go up or down; place your bets, and see if the gods will be in your favour! -->
 
 ## What is hermes-crypto?
 
-We are a fun, in browser game with a greek theme that aims to be calming, non competitive and embodies being whimsical. Users simply vote if the price of BTC will go up or down & we add or subtract to their score after 60 seconds; resolving the vote.
+Hermes-Crypto is a fun, in-browser game with a greek theme that aims to be calming, non-competitive and whimsical. Users simply vote if the price of BTC will go up or down & we add or subtract to their score after 60 seconds; resolving the vote.
 
 - `Goal`: Create a reliable page that is intuitive and fun.
 - `Users`: For now? Technical folks.
 - `Competitors`: Like us? Not many. All other pages dedicated to this up and running focusses on events and winning coins.
 
-<!-- Give some more insight into the project itself -->
+<!-- Give some more insight into the project itself:
+How good are you at predicting whether the price of Bitcoin will go up or down in a given minute? Hermes-Crypto makes it possible for you to place your bet. It's simple: vote up if you think the price will increase within the next minute or vote down if you think the price will decrease within the next minute. If you guess correctly, you will get +1 point! Guess wrong... that'll be -1 on your total.
+
+Once you've thrown down your speculation, you won't be able to vote for another 60 seconds. -->
 
 ---
 
@@ -46,11 +59,21 @@ The game itself is simple; we want simple user identification & simple vote reso
 
 ---
 
+## 💣 Live Demo
+
+> Don't tell me the moon is shining; show me the glint of light on broken glass. -_Unknown_
+
+Let us look at [hermes-crypto.com](https://hermes-crypto.com)
+
+<!-- Explain the flow of the page here. -->
+
+---
+
 ### Assumptions
 
 ![bg right :500px](./img/hermes-landing-screenshot.png)
 
-Vote state can be resolved, pending or expired. Expired votes are calculated as soon as the client check for results.
+Vote state can be resolved, pending or expired. Expired votes are calculated as soon as the client checks for results.
 
 Votes that are a draw, are currently counted towards `+1` point.
 
@@ -103,21 +126,22 @@ You can have a look here: [hermes-crypto](https://github.com/svbygoibear/hermes-
 
 ---
 
-## 💣 Live Demo
+![bg opacity](https://picsum.photos/800/600?image=53)
 
-> Don't tell me the moon is shining; show me the glint of light on broken glass.
+## What is coming for the future?
 
-What use will it be to just talk about what is going on under the hood and not show what we are actually working with? Time to hop on off to [hermes-crypto.com](https://www.hermes-crypto.com)
-
-![image height:150px](./img/hermes-landing-screenshot.png)
-
-<!-- Explain the flow of the page here. -->
+| Feature          | Description                                                                    |
+| ---------------- | ------------------------------------------------------------------------------ |
+| Vote Review      | Re-look at our current method of calculating votes; async job to be considered |
+| Add Logging      | Investigate and add better logging                                             |
+| Improve login    | Add Oauth for better login & logout                                            |
+| Create User Dash | Add a user dash with their stats and info                                      |
 
 ---
 
 ## Development Cycle
 
-This is the cycle of contribution! We've identified some shortcomings, some enhancements that can be made and now; how do we tackle this as a team?
+This is where you fit in. We've identified some opportunities, shortcomings, some enhancements that can be made and now; how do we tackle this as a team?
 
 - Discuss in our morning meeting.
 - Create issues; as part of our planning meeting we can discuss who grabs which features/issues.
@@ -130,33 +154,19 @@ This is the cycle of contribution! We've identified some shortcomings, some enha
 
 ## Deployment
 
-As seen on each of the F/E and B/E applications, they are deployed separately. In the next phase of this project, a flow to try out includes:
+We already have automatic deployments, but what about adding our own staging environment to collaboratively review our work:
 
-- Create a staging environment
-- Deploy after a successful Pull Request the code into staging & have an internal review phase/enhance testing.
-- After bundling a few staging items together, deploy them to production.
+- Deploy after a successful Pull Request the code into staging & have an internal review phase/enhance testing
+- After bundling a few staging items together, deploy them to production
 
-<!-- Mention these are future plans. -->
-
----
-
-![bg opacity](https://picsum.photos/800/600?image=53)
-
-## What is coming for the future?
-
-| Feature          | Description                                                                     |
-| ---------------- | ------------------------------------------------------------------------------- |
-| Vote Review      | Re-look at our current method of calculating votes; async job to be considered. |
-| Add Logging      | Investigate and add better logging                                              |
-| Improve login    | Add Oauth for better login & logout                                             |
-| Create User Dash | Add a user dash with their stats and info                                       |
+<!-- Mention these are future plans. -->                                    |
 
 ---
 
-## Now what?
+## Open Discussion
 
-Have more questions? Now is the time!
-![bg right :500px](./img/hermes-icon-image.png)
+Have more questions? Maybe some suggestions? Now is the time!
+![bg right :500px](./img/player-won.gif)
 
 ---
 
